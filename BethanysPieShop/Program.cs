@@ -27,5 +27,6 @@ if (app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.MapDefaultControllerRoute();
+DbInitilizar.init(app);
 
 app.Run();
